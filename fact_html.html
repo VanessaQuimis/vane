@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!--<link rel="stylesheet" type="text/css" href="maquetacion1.css"> -->
+</head>
+
+<body>
+	<div id="contenedor" style="width: 700px; height: 100%;	margin: 0.5em auto;	padding: 0.5em ;">
+		<div id="header" >
+			<div id="icono" style="height: 370px;	width: 55%; float: left; ">
+				<center>
+					<img srcset="D:\Vane\icono\Calendar-Icon.png"  width="200" height="167">
+				</center>
+				<div id="datosF" style="height: 180px; width: 100%; float: left; border: ridge #000000 1px;border-radius: 1em;">
+					<font size=2><p align="center"><b>var_razon_scial</b></p></font>
+					<font size=2><p><b>var_nombre_comercial</b></p></font>
+					<font size=1><p><b>DIRECCION MATRIZ: </b> var_dir_mtriz</p></font>
+					<font size=1><p><b>DIRECCION: </b>var_direcion</p></font>
+					<font size=1><p><b>SUCURSAL: </b>var_sucursal</p></font>
+					<font size=1><p><b>Contribuyente especial Nro: </b>var_contribuyente_especial</p></font>
+					<font size=1><p><b>Oligado a llevar contabildad: </b>var_lleva_contabilidad</p></font>
+				</div>	
+			</div>
+			<div id="datosFactura" style="height: 350px; width: 44%; float: right; border: ridge #000000 1px;border-radius: 1em;">
+				<font size=2><p><b>RUC: </b>var_Ruc</p></font>
+				<font size=4><p><b>FACTURA</b></p></font>
+				<font size=3><p><b>No.: </b>var_num_fact</p>
+				<font size=2><p><b>NÚMERO DE AUTORIZACIÓN: </b></p></font>
+				<font size=2><p>var_num_autorizacion</p></font>
+				<font size=2><p><b>FECHA DE AUTORIZACIÓN: </b>var_fech_autorizacion</p></font>
+				<font size=2><p><b>AMBIERNTE: </b>PRODUCCÓN</p></font>
+				<font size=2><p><b>EMISIÓN: </b>NORMAL</p></font>
+				<font size=2><p><b>ESTADO: </b>ENVIADO</p></font>
+				<font size=2><p><b>CLAVE ACCESO</b></p></font>	
+				<font size=2><p>var_clave</p></font>					
+			</div>	
+		</div>
+		<br/>		
+		<div id="datos_cliente"  >
+			<div id="datosCliente1" style="height: 70px;width: 55.3%; float: left; border: ridge #000000 1px;">
+				<font size=2><p><b>Razón Social / Nombres y Apellidos: </b> var_cliente</p></font>
+				<font size=2><p><b>Fecha Emisión: </b> var_fecha_emision</p></font>
+			</div>
+			<div id="datosCliente2"  style="height: 70px;	width: 44.1%; float: left; border: ridge #000000 1px;">
+				<font size=2><p><b>RUC / C.I: </b>var_ruc</p></font>
+				<font size=2><p><b>Guia Remisión:  </b>var_guia_reision</p></font>
+			</div>		
+		</div>
+
+		<div id="contenido" >
+			<div id="tablaDetalle" style="width: 100%; float: left;">	
+				<br/>
+					<div id="cod_principal" style="height: 30px; width: 12%; float: left; border: ridge #000000 1px;">
+						<font size=1><p align="center"><b>Cod. Principal</b></p></font>
+					</div>
+					<div id="cantidad" style="height: 30px; width: 12%;	float: left; border: ridge #000000 1px;">
+						<font size=1><p align="center"><b>Cant.</b></p></font>
+					</div>
+					<div id="descripcion" style="height: 30px; width: 38%;float: left; border: ridge #000000 1px;">
+						<font size=1><p align="center"><b>Descripción</b></p></font>
+					</div>
+					<div id="P_Unitario" style="height: 30px; width: 12%;float: left; border: ridge #000000 1px;">
+						<font size=1><p align="center"><b>P. Uni</b></p></font>
+					</div>
+					<div id="valor_descuento" style="height: 30px; width: 12%; float: left; border: ridge #000000 1px;">
+						<font size=1><p align="center"><b>Descuento</b></p></font>
+					</div>
+					<div id="p_total" style="height: 30px; width: 12%; float: left; border: ridge #000000 1px;">
+						<font size=1><p align="center"><b>P. Total</b></p></font>
+					</div>
+					<table style="width: 100%;float: left;">
+						<tr>
+							<td style="height: 25px; width: 11.5%;float: left; border: ridge #000000 1px;">
+								<font size=1><p align="center">0001</p></font>
+							</td>
+							<td style="height: 25px; width: 11.8%;float: left; border: ridge #000000 1px;">
+								<font size=1><p align="center">1</p></font>
+							</td>
+							<td style="height: 25px; width: 37.8%;float: left; border: ridge #000000 1px;">
+								<font size=1><p align="left">descripcion de mi producto</p></font>
+							</td>
+							<td style="height: 25px; width: 11.8%;float: left; border: ridge #000000 1px;">
+								<font size=1><p align="right">0001</p></font>
+							</td>
+							<td style="height: 25px; width: 11.8%;float: left; border: ridge #000000 1px;">
+								<font size=1><p align="right">0001</p></font>
+							</td>
+							<td style="height: 25px; width: 11.8%;float: left; border: ridge #000000 1px;">
+								<font size=1><p align="right">0001</p></font>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>			
+		</div>
+
+		<div id="footer" style="width: 700px; height: 100%;	margin: 0.5em auto;	padding: 0.5em ;" >
+			<div id="informacionAdicional" style="height: 296px;	width: 62.5%; float: left; border: ridge #000000 1px; ">
+				<center>
+					<font size=4><p><b>Información Adicional</b> </p></font>
+				</center>
+				<font size=1><p><b>MONEDA: </b> var_moneda</p></font>
+				<font size=1><p><b>HABITACION: </b>var_habitacion</p></font>
+				<font size=1><p><b>FECHA LLEGADA: </b>var_fecha_llegada</p></font>
+				<font size=1><p><b>FECHA SALIDA: </b>var_fecha_salida</font>
+				<font size=1><p><b>CAJERO: </b>var_cajero</p></font>
+				<font size=1><p><b>TOUR: </b>var_tour</p></font>
+				<font size=1><p><b>Transacción: </b>var_transaccion</font>
+			</div>
+			<div id="valores_factura"  style="height: 297px;	width: 37.1%; float: left;">
+				<div id="subtotal12"  style="height: 30px;	width: 70%; float: left; border: ridge #000000 1px;">
+					<font size=1><p><b>SUBTOTAL 12%</b></p></font>
+				</div>
+				<div id="valor_subtotal12" style="height: 30px;	width: 28%;	float: left; border: ridge #000000 1px;">
+					<font size=1><p align="right"><b>00.00</b></p></font>
+				</div>
+				<div id="subtotal0"  style="height: 30px;	width: 70%;	float: left; border: ridge #000000 1px;">
+					<font size=1><p ><b>SUBTOTAL 0%</b></p></font>
+				</div>
+				<div id="valor_subtotal0"  style="height: 30px;	width: 28%; float:left; border: ridge #000000 1px;">
+					<font size=1><p align="right"><b>00.00</b></p></font>
+				</div>
+				<div id="subtotal_no_sujeto"  style="height: 30px;	width: 70%; float: left; border: ridge #000000 1px;">
+					<font size=1><p><b>SUBTOTAL NO SUJETO A IMPUESTO</b></p></font>
+				</div>
+				<div id="valor_subtotal_no_sujeto"  style="height: 30px;width: 28%;	 float: left; border: ridge #000000 1px;">
+					<font size=1><p align="right"><b>00.00</b></p></font>
+				</div>
+				<div id="subtotal_exento_iva" style="height: 30px;	width: 70%; float: left; border: ridge #000000 1px;">
+					<font size=1><p ><b>SUBTOTAL AL EXENTO DE IVA</b></p></font>
+				</div>
+				<div id="valor_subtotal_exento_iva"  style="height: 30px;width: 28%; float: left; border: ridge #000000 1px;">
+					<font size=1><p align="right"><b>00.00</b></p></font>
+				</div>
+				<div id="subtotal_sin_impuestos" style="height: 30px;	width: 70%; float: left; border: ridge #000000 1px;">
+					<font size=1><p><b>SUBTOTAL SIN IMPUESTOS</b></p></font>
+				</div>
+				<div id="valor_subtotal_sin_impuestos"  style="height: 30px;width: 28%;	float: left; border: ridge #000000 1px;">
+					<font size=1><p align="right"><b>00.00</b></p></font>
+				</div>
+				<div id="descuento"  style="height: 30px; width: 70%; float: left; border: ridge #000000 1px;">
+					<font size=1><p ><b>DESCUENTO</b></p></font>
+				</div>
+				<div id="valor_descuento"  style="height: 30px;width: 28%;float: left; border: ridge #000000 1px;">
+					<font size=1><p align="right"><b>00.00</b></p></font>
+				</div>
+				<div id="iva12"  style="height: 30px;	width: 70%; float: left; border: ridge #000000 1px;">
+					<font size=1><p><b>IVA12%</b></p></font>
+				</div>
+				<div id="valor_iva12"  style="height: 30px;width: 28%; float: left; border: ridge #000000 1px;">
+					<font size=1><p align="right"><b>00.00</b></p></font>
+				</div>
+				<div id="propina"  style="height: 30px;	width: 70%; float: left; border: ridge #000000 1px;">
+					<font size=1><p><b>10% PROPINA - TIP</b></p></font>
+				</div>
+				<div id="valor_propina"  style="height: 30px;width: 28%; float: left; border: ridge #000000 1px;">
+					<font size=1><p align="right"><b>00.00</b></p></font>
+				</div>
+				<div id="valor_total"  style="height: 40px;	width: 70%; float: left;border: ridge #000000 1px;" >
+					<font size=3><p><b>VALOR TORAL</b></p></font>
+				</div>
+				<div id="valor_TOTAL"  style="height: 40px;width: 28%; float: left; border: ridge #000000 1px;">
+					<font size=O><p align="right"><b>00.00</b></p></font>
+				</div>
+			</div>	
+		</div>	
+
+		<div id="formas_pagos" style="width: 700px; height: 100%;	margin: 0.5em auto;	padding: 0.5em ;" >
+			<div id="forma_pago" style="height: 70px;	width: 100%; float: left;  ">	
+				<br/>
+				<div id="detalle_forma_pago" style="height: 30px; width: 38%; float: left; border: ridge #000000 1px;">
+						<font size=1><p align="center"><b>FORMA PAGO</b></p></font>
+				</div>
+				<div id="valor_forma_pago" style="height: 30px; width: 12%; float: left; border: ridge #000000 1px;">
+					<font size=1><p align="center"><b>VALOR</b></p></font>
+				</div>					
+				<div id="forma_pago_plazo" style="height: 30px; width: 12%; float: left; border: ridge #000000 1px;">
+					<font size=1><p align="center"><b>PLAZO</b></p></font>
+				</div>
+				<div id="forma_pago_timpo" style="height: 30px; width: 12%; float: left; border: ridge #000000 1px;">
+					<font size=1><p align="center"><b>TIEMPO</b></p></font>
+				</div>	
+				<table style="width:100%; float:left;">
+					<tr>
+						<td style="height: 25px; width: 37.7%;float: left; border: ridge #000000 1px;">
+							<font size=1><p align="center">var_forma_pago</p></font>
+						</td>
+						<td style="height: 25px; width: 11.8%;float: left; border: ridge #000000 1px;">
+							<font size=1><p align="center">var_valor</p></font>
+						</td>
+						<td style="height: 25px; width: 11.8%;float: left; border: ridge #000000 1px;">
+							<font size=1><p align="center">var_plazo</p></font>
+						</td>
+						<td style="height: 25px; width: 11.7%;float: left; border: ridge #000000 1px;">
+							<font size=1><p align="center">var_tiempo</p></font>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
